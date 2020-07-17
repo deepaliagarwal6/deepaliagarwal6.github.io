@@ -1,0 +1,62 @@
+th, td{
+    padding: 1em;
+}
+
+th{
+    background-color: #84844d;
+    color: #fff;
+}
+
+body{
+    background-image: url('../images/Background.jpg');
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+
+table{
+    text-align: center;
+    margin-top:2em;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+tr:nth-child(odd){
+    background-color: #7d779a
+}
+tr:nth-child(even){
+    background-color: #8e8681;
+}
+
+
+.hamburgerMenu{
+    height:100%;
+    width:15%;
+    position: fixed;
+    background-color: #dedede;
+
+}
+.hamburgerMenu li{
+    list-style-type: none;
+    margin-top:1em;
+}
+.hamburgerMenu ul{
+    padding-left: 0;
+}
+.hamburgerMenu a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #551a8b;
+    width:100%;
+    margin-left: 1em;
+}
+
+.hamburgerMenu li:hover, .hamburgerMenu a:hover{
+    color: #19f;
+    background-color: #234;
+}
+
+
+.hamburgerMenu a:active{
+    text-shadow: 1px 1px #cdc;
+}
